@@ -1,0 +1,78 @@
+*{
+    margin: 0 auto;
+}
+
+.container{
+    margin-top:2%;
+}
+.header{
+    text-align: center;
+}
+.inner-row{
+    margin:4% 0;
+}
+.recipe-form{
+    padding-top:1%;
+    display:flex;
+    padding:3% 0;
+}
+.table-hover tbody tr:hover td, .action-a{
+    color: rgb(222, 222, 225);
+    font-weight: bold;
+}
+form, table, thead, h2, td, th,.btn, option{
+    background-color: black;
+    color:#9cc3fe;
+    border-radius: 25px;
+}
+.action-a{
+    color:#9cc3fe;
+}
+.btn{
+    width:20%;
+    margin:0 40% 5% 40%;
+}
+h2, h5{
+    text-align: center;
+}
+
+.btn, thead, label, option{
+    font-size: 1.2em;
+}
+
+.user-input{
+    width:72%;
+    height: 35px;
+    box-shadow: 1px 1px 1px rgb(80, 80, 80);
+
+}
+.med-text{
+    width:85%;
+    height:80px;
+}
+.long-text{
+    width:85%;
+    height: 200px;
+}
+
+label, .user-input{
+    display: block;
+    margin:0 14%;
+}
+
+.date-made{
+    width:30%;
+    height:35px;
+    margin:0 auto;
+}
+.col-two-row{
+    margin:15% 0;
+}
+.rdo{
+    width:1.5em;
+    height:1.5em;
+}
+
+.bordered-row{
+    border:2px solid black;
+}
